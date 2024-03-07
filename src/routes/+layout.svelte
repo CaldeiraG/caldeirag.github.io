@@ -15,3 +15,14 @@
 		<slot />
 	</div>
 </div>
+
+<style>
+
+    :global(html) {
+        fill: black;
+    }
+    :global(html.dark) {
+        fill: white;
+    }
+
+</style>
